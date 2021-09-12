@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+img{
+    height: 99vh;
+    width: 100vw;
+}
+div{
+    border:3px solid #ff8800;
+    color:#ff8800;
+    font-size:20px;
+    font-family: 'Bona Nova', serif;
+    width:100px;
+    text-align:center;
+    padding:10px 30px;
+    position:fixed;
+    top:40vh;left:45vw;
+    transition:all 0.4s;
+
+}
+div:hover{
+    color:white;
+    border-color: #ffea00;
+    -webkit-box-shadow: 0 10px 8px -6px #ffea00;
+	-moz-box-shadow: 0 10px 8px -6px #ffea00;
+	box-shadow: 0 10px 8px -6px #ffea00;
+    transform:translateY(-15px);
+
+} 
+
+
